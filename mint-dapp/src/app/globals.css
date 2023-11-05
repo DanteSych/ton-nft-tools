@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.logo-img {
+  left: 10%;
+  top: 0;
+}
+
+.mint-card {
+  right: 10%;
+  top: 0;
+}
+
+.wrapper-mint {
+  left: 0;
+  top: 55%;
+  /* margin-top: 15vh; */
+  transform: translate(0, -50%);
+}
+
+.container-mint {
+  left: 0;
+  top: 0;
+}
+
+/* .container-mint {
+  left: 50%;
+  bottom: 40%;
+  transform: translate(-50%, -50%);
+} */
